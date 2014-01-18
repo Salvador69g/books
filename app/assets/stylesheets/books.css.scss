@@ -1,0 +1,37 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body { 
+	font-size: 20px; 
+	font-family: Georgia; 
+	margin: 0;
+	text-align: center;
+}
+
+#whole_page {
+	width: 50em;
+	margin: auto;
+	padding: 0;
+	text-align: left;
+	border-width:  0 1px 1px 1px;
+	border-color:  black;
+	border-style:  solid;
+}
+
+table { 
+	border: 1px solid black; 
+	margin: auto;
+	text-align: center;
+}
+
+td { 
+	 border: 1px solid #ccc; 
+	 padding: 5px; 
+	 background: white;
+}
+
+th { 
+	border: 1px solid #ccc; 
+	padding: 3px; 
+    background: #99CCFF; 
+}
